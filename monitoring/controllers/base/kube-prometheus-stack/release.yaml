@@ -28,4 +28,9 @@ spec:
           kind: PrometheusRule
   values:
     grafana:
-      adminPassword: mischa
+      adminPassword: albi986
+      ingress:
+        ingressClassName: traefik
+        enabled: true
+        hosts: 
+          - grafana.home.local
