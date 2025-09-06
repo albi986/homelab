@@ -7,10 +7,9 @@ spec:
   interval: 30m
   chart:
     spec:
-      chart: csi-driver-nfs
-      version: "4.11.0"
+      chart: charts/v4.11.0/csi-driver-nfs
       sourceRef:
-        kind: HelmRepository
+        kind: GitRepository
         name: csi-driver-nfs
         namespace: flux-system
   values:
