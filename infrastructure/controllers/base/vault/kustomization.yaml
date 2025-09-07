@@ -4,3 +4,5 @@ resources:
   - vault-namespace.yaml
   - vault-repository.yaml
   - vault-release.yaml
+  - vault-role.yaml
+  - vault-role-binding.yaml
