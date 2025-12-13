@@ -4,4 +4,4 @@ resources:
   - renovate
   - nfs-csi
   - metallb
-  - vault
+#  - vault
