@@ -10,7 +10,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./monitoring/controllers/develop
+  path: ./kubernetes/monitoring/controllers/develop
   prune: true
   # decryption:
   #   provider: sops
@@ -31,7 +31,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./monitoring/configs/develop
+  path: ./kubernetes/monitoring/configs/develop
   prune: true
   decryption:
     provider: sops
